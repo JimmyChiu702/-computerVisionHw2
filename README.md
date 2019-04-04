@@ -1,13 +1,22 @@
 # Generate Images with GANPaint
-原圖|加草|加藍天|加樹 
--|-|-|-|-
-![](https://i.imgur.com/KqdiFpY.png)|![](https://i.imgur.com/p9VLOzh.png)|![](https://i.imgur.com/KLaDhe0.png)|![](https://i.imgur.com/VWpucDy.png)
+原圖
+![](https://i.imgur.com/KqdiFpY.png)
+加草
+![](https://i.imgur.com/p9VLOzh.png)
+加藍天
+![](https://i.imgur.com/KLaDhe0.png)
+加樹
+![](https://i.imgur.com/VWpucDy.png)
 
 # Dissect any GAN model and Analyze What You Find
 我們的model使用的是living room，我們在各層間發現一些現象：
 1. level1偵測living room的特徵比較模糊，基本上就是佈景中的某個區塊，還看不出區塊中明顯的特性，例如：
-![](https://i.imgur.com/CtkErXs.png)![](https://i.imgur.com/9aFQqmi.png)![](https://i.imgur.com/8e9LITe.png)
-![](https://i.imgur.com/1GrC4aD.png)![](https://i.imgur.com/XfbKjT8.png)![](https://i.imgur.com/w11Cg4j.png)
+![](https://i.imgur.com/CtkErXs.png)
+![](https://i.imgur.com/9aFQqmi.png)
+![](https://i.imgur.com/8e9LITe.png)
+![](https://i.imgur.com/1GrC4aD.png)
+![](https://i.imgur.com/XfbKjT8.png)
+![](https://i.imgur.com/w11Cg4j.png)
 level7偵測living room的特徵就變得比較明顯，這些特徵也變得更複雜更多元，不再只是場景中的特定區塊
 
 
